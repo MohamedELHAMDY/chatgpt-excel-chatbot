@@ -2,7 +2,7 @@ import openai
 import pandas as pd
 
 # Your OpenAI API key
-openai.api_key = 'your-openai-api-key'
+openai.api_key = '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'
 
 # Load Excel data
 df = pd.read_excel('your_file.xlsx')
