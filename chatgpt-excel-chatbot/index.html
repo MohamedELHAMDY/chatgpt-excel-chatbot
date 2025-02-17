@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Excel Chatbot</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 300px;
+            border-right: 1px solid #ccc;
+            padding-right: 20px;
+        }
+        .main-content {
+            flex: 1;
+            padding-left: 20px;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            margin-bottom: 5px;
+        }
+        .file-name {
+            display: inline-block;
+            margin-right: 5px;
+        }
+        .commit-message {
+            color: #777;
+            font-size: smaller;
+        }
+        .commit-date {
+            color: #777;
+            font-size: smaller;
+            float: right;
+        }
+        .description {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ChatGPT Excel Chatbot</h1>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Files</h2>
+            <ul class="file-list">
+                <li>
+                    <span class="file-name">.github</span>
+                    <span class="commit-message">github/workflows</span>
+                    <span class="commit-date">25 minutes ago</span>
+                </li>
+                <li>
+                    <span class="file-name">README.md</span>
+                    <span class="commit-message">Create README.md</span>
+                    <span class="commit-date">37 minutes ago</span>
+                </li>
+                <li>
+                    <span class="file-name">chatbot.py</span>
+                    <span class="commit-message">Update chatbot.py</span>
+                    <span class="commit-date">15 minutes ago</span>
+                </li>
+                <li>
+                    <span class="file-name">detail-implantation-bancaire-2022.xlsx</span>
+                    <span class="commit-message">Add files via upload</span>
+                    <span class="commit-date">39 minutes ago</span>
+                </li>
+                <li>
+                    <span class="file-name">requirements.txt</span>
+                    <span class="commit-message">Create requirements.txt</span>
+                    <span class="commit-date">33 minutes ago</span>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="description">
+                <p>This project allows you to interact with an Excel file through a chatbot powered by OpenAI's GPT-3.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
